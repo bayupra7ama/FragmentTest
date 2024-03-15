@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+  >
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="@string/coach_kuestion" />
+    <RadioGroup
+        android:id="@+id/rg_options"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <RadioButton
+            android:id="@+id/rb_saf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sir_alex_ferguson"
+            android:layout_marginBottom="16dp"/>
+
+        <RadioButton
+            android:id="@+id/rb_mou"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/jose_mourinho"
+            android:layout_marginBottom="16dp"/>
+
+        <RadioButton
+            android:id="@+id/rb_eth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ering_teng_hang"
+            android:layout_marginBottom="16dp"/>
+
+        <RadioButton
+            android:id="@+id/rb_moyes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/daviMoyes"
+            android:layout_marginBottom="16dp"/>
+    </RadioGroup>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_close"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:layout_marginEnd="4dp"
+            android:layout_marginRight="4dp"
+            android:text="@string/tutup"
+            style="?android:attr/buttonBarButtonStyle"/>
+        <Button
+            android:id="@+id/btn_choose"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:layout_marginEnd="4dp"
+            android:layout_marginRight="4dp"
+            android:text="@string/pilih"
+            style="?android:attr/buttonBarButtonStyle"/>
+
+    </LinearLayout>
+
+</LinearLayout>
